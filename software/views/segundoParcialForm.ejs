@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Segundo Parcial</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body class="w3-container w3-white">
+    <%- include('header'); %>
+    <div class="w3-display-container w3-display-topmiddle" style="width:70%">
+        <br>
+        <ul class="w3-ul w3-card-4">
+            <form action="/segundoParcial" method="post" class="w3-container w3-light-grey">
+                <p>
+                    <label>T (time):</label>
+                    <input type="number" name="t" class="w3-input" step="0.01">
+                </p>
+                <p>
+                    <label>Bcpu (Busy time):</label>
+                    <input type="number" name="B_cpu" class="w3-input" step="0.01">
+                </p>
+                <p>
+                    <label>Bslow (Busy time):</label>
+                    <input type="number" name="B_slow_disk" class="w3-input" step="0.01">
+                </p>
+                <p>
+                    <label>Bfast (Busy time):</label>
+                    <input type="number" name="B_fast_disk" class="w3-input" step="0.01">
+                </p>
+                <p>
+                    <label>C (Completed tasks):</label>
+                    <input type="number" name="C" class="w3-input" step="0.01">
+                </p>
+                <p>
+                    <label>Cslow (Completed tasks):</label>
+                    <input type="number" name="C_slow" class="w3-input" step="0.01">
+                </p>
+                <p>
+                    <label>Cfast (Completed tasks):</label>
+                    <input type="number" name="C_fast" class="w3-input" step="0.01">
+                </p>
+                
+                <p>
+                    <label>Z (Thinking time):</label>
+                    <input type="number" name="z" class="w3-input" step="0.01">
+                </p>
+
+                <p>
+                    <button class="w3-button w3-white w3-border w3-border-blue">send</button>
+                </p>    
+
+            </form>
+        </ul>
+        <br>
+    </div>
+</body>
+</html>

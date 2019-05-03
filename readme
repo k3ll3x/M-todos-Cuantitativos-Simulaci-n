@@ -1,0 +1,23 @@
+Proyecto Final Métodos Cuantitiativos y Simulación
+SK
+
+Notas:
+
+Se tiene que tener instalado node
+Se descomprime la carpeta y dentro de ella (desde terminal) se ejecuta node de la siguiente manera:
+
+	node index.js
+
+los archivos que tienen que modificar son los siguientes:
+
+	index.js (se tiene que copiar un bloque, como está descrito en el video, para las rutas hacia los ejercicios que vayan a implementar)
+	*.ejs (tienen que crear dos vistas para su problema, una sera un formulario donde se llenarán los datos y el otro es para desplegar los usuarios)
+	index.html (copiar para agregar un link al problema que implementaron)
+
+Todo está descrito en el video, pero si tienen alguna duda díganme
+
+PD: utilicé el material del profesor para hacer el ejemplo de M/M/1 y M/M/s
+
+Link del video tutorial:
+
+https://youtu.be/wYeHfVQbDOU

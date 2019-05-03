@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>M/M/s</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body class="w3-container w3-white">
+    <%- include('header'); %>
+    <div class="w3-display-container w3-display-topmiddle" style="width:70%">
+        <br>
+        <ul class="w3-ul w3-card-4">
+            <form action="/mms" method="post" class="w3-container w3-light-grey">
+                <p>
+                    <label>S (number of servers):</label>
+                    <input type="number" name="s" class="w3-input" step="0.01">
+                </p>
+                <p>
+                    <label>&lambda; (arrival rate):</label>
+                    <input type="number" name="lambda" class="w3-input" step="0.01">
+                </p>
+                <p>
+                    <label>&mu; (service rate):</label>
+                    <input type="number" name="mu" class="w3-input" step="0.01">
+                </p>
+                <p>
+                    <label>t (observation @ t>0):</label>
+                    <input type="number" name="t" class="w3-input" step="0.01">
+                </p>
+                <p>
+                    <button class="w3-button w3-white w3-border w3-border-blue">send</button>
+                </p>
+            </form>
+        </ul>
+        <br>
+    </div>
+</body>
+</html>
